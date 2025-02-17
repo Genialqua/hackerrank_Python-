@@ -33,11 +33,11 @@ The solutions are organized into different categories based on the problem domai
 
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/Genialqua/hackerrank-python-solutions.git
+   git clone https://github.com/Genialqua/hackerrank_Python-.git
    ```
 2. Navigate to the project directory:  
    ```bash
-   cd hackerrank-python-solutions
+   cd hackerrank-Python
    ```
 3. Run any solution file using Python:  
    ```bash
