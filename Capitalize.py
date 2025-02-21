@@ -9,4 +9,4 @@ def solve(s):
     print(s)
 
 
-solve("hello world")
+solve("hello world!")
