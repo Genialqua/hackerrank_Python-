@@ -1,11 +1,12 @@
-# Enter your code here. Read input from STDIN. Print output to STDOUT
-t = int(input())
-
-for _ in range(t):
-    try:
-        a, b = map(int, input().split())
-        print(a // b)  # Integer division
-    except ZeroDivisionError as e:
-        print("Error Code:", e)
-    except ValueError as v:
-        print("Error Code:", v)
+def main():
+    x = get_int()
+    print(f"X is {x}")
+def get_int():
+    while True:
+        try:
+            x = int(input("What is x? "))
+            break
+        except ValueError as e:
+            print("Invalid input. Please enter an integer.", e)
+    return x
+main()  
